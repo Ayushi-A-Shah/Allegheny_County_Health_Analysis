@@ -19,13 +19,16 @@ It contains visualizations, model outputs, and results:
 HTML Output: reports/allegheny_county_clustering_classification.html
 
 ## Data Source
+The analysis uses data from the **County Health Rankings & Roadmaps (CHR&R)** program, which aggregates publicly available health, socioeconomic, and environmental indicators at the county level in the United States.
 
-The dataset is sourced from the County Health Rankings & Roadmaps program and includes:
-Health outcomes and behaviors
-Clinical care access and quality
-Social and economic factors
-Physical environment indicators
-The analysis focuses on preprocessing, feature scaling, and dimensional consistency before modeling.
+The dataset includes variables related to:
+- Health outcomes and behaviors  
+- Clinical care access and quality  
+- Social and economic factors  
+- Physical environment indicators
+  
+The specific analytic file used in this project corresponds to the CHR&R analytic dataset (2025 version). Due to licensing and size considerations, the raw dataset is not included in this repository.
+Data can be accessed directly from the official source: https://www.countyhealthrankings.org/
 
 ## Methods
 1. Data Preprocessing
@@ -73,5 +76,5 @@ Then open: notebooks/allegheny_county_clustering_classification.ipynb
 - Incorporate classification targets
 - Build an interactive dashboard for policymakers
 
-License
+## License
 - This project is released under the MIT License.
